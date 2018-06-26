@@ -17,11 +17,11 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.000001,
-  "socketServer": ["https://api.etherdelta.com","https://socket02.etherdelta.com","https://socket03.etherdelta.com","https://socket04.etherdelta.com","https://socket05.etherdelta.com","https://socket06.etherdelta.com"],
-  "userCookie": "EtherDelta",
-  "eventsCacheCookie": "EtherDelta_eventsCache",
-  "ordersCacheCookie": "EtherDelta_ordersCache",
-  "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE"
+  "socketServer": "https://backend.bitox.io",
+  "userCookie": "Bitox",
+  "eventsCacheCookie": "Bitox_eventsCache",
+  "ordersCacheCookie": "Bitox_ordersCache",
+"etherscanAPIKey": "EMIKF1JZBX7IXH4GCG1294CWIXXN2R85A3",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
