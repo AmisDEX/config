@@ -3,6 +3,7 @@
   "contractToken": "smart_contract/token.sol",
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractEtherDeltaAddrs": [
+    { "addr": "0x8d12a197cb00d4747a1fe03395095ce2a5cc6819", "info": "Deployed 02/09/2017 -- THE CURRENT SMART CONTRACT" },
     { "addr": "0xb5adb233f28c86cef693451b67e1f2d41da97d21", "info": "Deployed 04/27/2018 -- THE CURRENT SMART CONTRACT" }
   ],
   "ethTestnet": false,
@@ -17,11 +18,11 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.000001,
-  "socketServer": "https://backend.bitox.io",
-  "userCookie": "Bitox",
-  "eventsCacheCookie": "Bitox_eventsCache",
-  "ordersCacheCookie": "Bitox_ordersCache",
-  "etherscanAPIKey": "EMIKF1JZBX7IXH4GCG1294CWIXXN2R85A3",
+  "socketServer": ["https://api.forkdelta.com","https://socket02.etherdelta.com","https://socket03.etherdelta.com","https://socket04.etherdelta.com","https://socket05.etherdelta.com","https://socket06.etherdelta.com"],
+  "userCookie": "EtherDelta",
+  "eventsCacheCookie": "EtherDelta_eventsCache",
+  "ordersCacheCookie": "EtherDelta_ordersCache",
+"etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE"
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
